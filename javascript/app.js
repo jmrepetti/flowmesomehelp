@@ -7,7 +7,7 @@ Zepto(function($){
 
   $.ajax({
     type: 'GET',
-    url: '/flows/' + id + '.json' ,
+    url: '/flowmesomehelp/flows/' + id + '.json' ,
     // type of data we are expecting in return:
     dataType: 'json',
     success: function(data){
