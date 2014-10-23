@@ -1,0 +1,52 @@
+{
+  "title": "Tech Support Cheat Sheet",
+  "description": "(from <a href=\"http:\/\/xkcd.com\/627\/\">XKCD<\/a>)",
+  "initial_step": "find_menu_item",
+  "find_menu_item": {
+    "title": "Find a menu item or button which looks related to what you want to do.",
+    "link_to": {
+      "click_it": "Ok",
+      "pick_random": "I can't find one"
+    }
+  },
+  "click_it": {
+    "title": "Click it.",
+    "link_to": {
+      "did_it_work": "Ok"
+    }
+  },
+  "pick_random": {
+    "title": "Pick one at random.",
+    "link_to": {
+      "click_it": "Ok",
+      "google": "I've tried them all"
+    }
+  },
+  "ask_for_help": {
+    "title": "Ask some one for help or give up."
+  },
+  "did_it_work": {
+    "title": "Did it Work?",
+    "link_to": {
+      "done": "Yes",
+      "many_tries": "No"
+    }
+  },
+  "done": {
+    "title": "You're done!"
+  },
+  "google": {
+    "title": "Google the name of the program plus a few words related to what you want to do. Follow any instruction.",
+    "link_to": {
+      "did_it_work": "Ok"
+    }
+  },
+  "many_tries": {
+    "title": "Have you been trying this for over half an hour?",
+    "link_to": {
+      "ask_for_help": "Yes",
+      "find_menu_item": "No"
+    }
+  }
+}
+

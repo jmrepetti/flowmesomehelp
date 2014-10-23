@@ -1,0 +1,45 @@
+iframe {
+  margin-right: -30px;
+  margin-top: 4px;
+}
+.flow_title {
+  text-align:center;
+}
+.share_link {
+  float:right;
+}
+
+#step {
+  text-align:center;
+  margin-top: 12%;
+}
+
+#step_links {
+  margin-top: 10%;
+  text-align:center;
+}
+
+a.connector_link {
+  color:white;
+  background-color: blue;
+  padding:10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-transform: uppercase;  
+  text-decoration: none;
+  margin: 0 5% 0 5%;
+}
+
+
+a.restart_link {
+  color:white;
+  background-color: red;
+  padding:10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-transform: uppercase;  
+  text-decoration: none;
+  margin: 0 5% 0 5%;
+}
+
+

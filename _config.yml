@@ -1,0 +1,10 @@
+# Site settings
+title: Flow me some help!
+email: "jmrepetti@gmail.com"
+baseurl: ""
+
+    
+# Build settings
+markdown: redcarpet
+pygments: true
+permalink: date
